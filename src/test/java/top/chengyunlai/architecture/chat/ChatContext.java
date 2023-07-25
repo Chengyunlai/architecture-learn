@@ -16,6 +16,13 @@ public class ChatContext {
     private Map<String,ChatService> chatServiceMap;
 
     public String getReplyInfo(User user){
-        return chatServiceMap.get(ChatEnum.getStrategyServiceByType(user.getIsChatGPTType())).getReplyInfo();
+        // 通过 Map 拿到名字对应的容器实例
+        return chatServiceMap.get(
+                // 通过枚举获得对应的容器名字
+                ChatEnum.getStrategyServiceByType(
+                        // 条件
+                        user.getIsChatGPTType()
+                )
+        ).getReplyInfo();
     }
 }
