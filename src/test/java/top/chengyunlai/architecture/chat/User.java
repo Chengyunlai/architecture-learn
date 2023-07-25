@@ -8,7 +8,7 @@ import lombok.Data;
  * @date 2023/7/25
  */
 public class User {
-    // 是否开启 ChatGPT4，true 为开启；false 为不开启
+    // 是否开启 ChatGPT4，1 为不开启；2 为开启
     private Integer chatGPTType;
 
     public void setChatGPTType(Integer chatGPTType) {
