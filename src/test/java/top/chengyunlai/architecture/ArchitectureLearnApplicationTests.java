@@ -3,8 +3,8 @@ package top.chengyunlai.architecture;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
-import top.chengyunlai.architecture.chat.ChatContext;
-import top.chengyunlai.architecture.chat.User;
+import top.chengyunlai.architecture.factory.chat.ChatContext;
+import top.chengyunlai.architecture.factory.chat.User;
 
 @SpringBootTest
 class ArchitectureLearnApplicationTests {

@@ -1,4 +1,4 @@
-package top.chengyunlai.architecture.chat;
+package top.chengyunlai.architecture.factory.chat;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

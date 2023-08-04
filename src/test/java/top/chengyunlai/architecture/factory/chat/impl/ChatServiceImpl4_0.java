@@ -1,7 +1,7 @@
-package top.chengyunlai.architecture.chat.impl;
+package top.chengyunlai.architecture.factory.chat.impl;
 
 import org.springframework.stereotype.Service;
-import top.chengyunlai.architecture.chat.ChatService;
+import top.chengyunlai.architecture.factory.chat.ChatService;
 
 /**
  * @author Chengyunlai
